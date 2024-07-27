@@ -1,0 +1,21 @@
+# Ignorar archivos y directorios generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos y directorios generados por IDEs y editores de texto
+.idea/
+.vscode/
+
+# Ignorar archivos y directorios generados por compiladores y lenguajes de programación
+*.o
+*.class
+*.pyc
+
+# Ignorar archivos y directorios generados por herramientas de construcción
+/build/
+/dist/
+/node_modules/
+
+# Ignorar archivos y directorios específicos
+secret.txt
+logs/
